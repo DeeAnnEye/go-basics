@@ -8,7 +8,7 @@ func messages(name string) string {
 
 }
 
-func findSum(num1 int ,num2 int) int {
+func findSum(num1 ,num2 int) int {
 
 	return num1+num2
 
