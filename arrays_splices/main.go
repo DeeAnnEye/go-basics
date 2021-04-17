@@ -16,4 +16,13 @@ func main(){
 	fmt.Println(fruitArr)
 	fmt.Println(fruitArr[0])
 	fmt.Println(names)
+
+	// slices
+	name := []string{"Mark","Ben","Tom","Ginger"}
+
+	fmt.Println(name)
+	// length of array
+	fmt.Println(len(name))
+	// range of array 
+	fmt.Println(name[1:3])
 }
